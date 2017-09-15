@@ -1,7 +1,9 @@
 # ColorPickerLibrary
-A easy to use customizable color picker library
 
-How to use it:
+
+
+
+
 For Gradle:
 Add it in your root build.gradle at the end of repositories:
 
@@ -35,6 +37,7 @@ Add the JitPack repository to your build file:
 	    <artifactId>ColorPickerLibrary</artifactId>
 	    <version>master-SNAPSHOT</version>
 	</dependency>
+
 
 Use this in the layout.xml file:
 
