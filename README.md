@@ -1,8 +1,9 @@
 # ColorPickerLibrary
 
 
+![Alt text](https://github.com/Pritam307/ColorPickerLibrary/blob/master/app/src/main/res/drawable/lib_demo1.png) 
 
-
+![Alt text](https://github.com/Pritam307/ColorPickerLibrary/blob/master/app/src/main/res/drawable/lib_demo3.png) 
 
 For Gradle:
 Add it in your root build.gradle at the end of repositories:
