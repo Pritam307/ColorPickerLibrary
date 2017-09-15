@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
     public void onClickColor(View v)
     {
         val=color.getRGB();
-        Log.d(TAG, "onClickColor: "+val.get(0)+val.get(1)+val.get(2)+val.get(3));
         Toast.makeText(getApplicationContext(), "Alpha:"+val.get(0)+"Red:"+val.get(1)+"Green:"+val.get(2)+"Blue:"+val.get(3),Toast.LENGTH_LONG).show();
     }
 }
