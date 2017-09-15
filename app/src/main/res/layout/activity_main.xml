@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/mainLay"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.pritamkundilya.colorpickerlibrary.MainActivity">
+
+    <com.pritamkundilya.colorpickerlibrary_pk.ColorPickerView
+        android:layout_width="300dp"
+        android:id="@+id/picker"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <com.pritamkundilya.colorpickerlibrary_pk.ColorAlpha
+        android:id="@+id/alphabar"
+        android:max="255"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/picker"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/alphabar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:onClick="onClickColor"
+        android:textSize="17sp"
+        android:background="@drawable/btn"
+        android:text="OK"
+        android:textColor="#fff"
+        android:textAlignment="center" />
+
+</RelativeLayout>
