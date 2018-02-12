@@ -79,6 +79,7 @@ Use this in the layout.xml file:
     ....
 }
 
+# LICENSE
 
 Copyright (C) 2017 Pritam Kundilya
 
